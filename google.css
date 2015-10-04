@@ -137,8 +137,6 @@ button:focus{
 	height:40px;
 	line-height:40px;
 	padding-top:3px;
-	border-top: 4px;
-	border-color:black;
 }
 .bottom a{
 	text-decoration:none;
