@@ -1,0 +1,165 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	overflow:hidden;
+}
+.container{
+	width:100%;
+	height:100%;
+	
+}
+#googimg{
+	padding-top:109px;
+	display:block;
+	margin:0 auto;
+	height:92px;
+	width:272px;
+}
+#avatar{
+	height:32px;
+	width:32px;
+	border-radius:50%;
+	opacity: 1;
+}
+#apps, #notifications{
+	height:20px;
+	width:20px;
+	opacity:.77;
+	vertical-align: middle;
+}
+#notifications:hover, #apps:hover{
+	opacity:1;
+}
+#myname{
+	opacity:.5;
+}
+.undl a{
+	text-decoration:none;
+	color:#000;
+	opacity:.75;
+}
+.undl:hover{
+	text-decoration:underline;
+}
+.main{
+	display:block;
+	width:1366px;
+	height:233px;
+	margin-top:89px;
+	background-color:#FFF;
+}
+.top{
+	position:absolute;
+	top:0px;
+	right:-50px;
+	background-color:#FFF;
+	width: 25%;
+	height:5%;
+	padding:15px;
+}
+.searchbar{
+	height:26px;
+	width:520px;
+	padding:6px;
+	padding-right:60px;
+	padding-left:8px;
+	background:transparent;
+	border:none;
+	border:1px solid Gainsboro;
+	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSUcdZemXvjizEGRVFR7ioWTaIY8CXLKVTbOfTtgSGtVtRXCufL);
+	background-repeat:no-repeat;
+	background-size:14px 20px;
+	background-position:560px 8px;
+	position: relative;
+	left:10px;
+    display: block;
+    margin : 0 auto;
+}
+.searchbar:focus { 
+    outline: none !important;
+    border-color: #4285F4;
+	border-width:1px;
+	font-family:sans-serif;
+	font-size:13pt;
+	font-weight:100;
+}
+.searchbar:hover:focus{
+	border-color:#4285F4;
+}
+.searchbar:hover{
+	border-color:#A8A8A8;
+}
+button{
+	position:relative;
+	left:40%;
+	display:inline-block;
+	border:none;
+	height: 36px;
+    line-height: 27px;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	margin:32px 4px;
+	padding:0px 16px;
+	background-color:#f2f2f2;
+	border-color:#f2f2f2;
+	color:#757575;
+	background-image:linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+button:hover{
+	border:solid #A8A8A8;
+	color:#222 ;
+	border-width:1px;
+	padding:0px 15px;
+}
+button:focus{
+	border-width:1px;
+}
+.topright div{
+	display:inline-block;
+	font-family: arial,sans-serif;
+	font-size:13px;
+	font-weight:50;
+	opacity:1;
+	padding-left:15px;
+	vertical-align:middle;
+}
+.bottom{
+	display:inline-block;
+	position:relative;
+	bottom:-200px;
+	background-color:#F2F2F2;
+	color:#666;
+	font-family:arial;
+	font-size:small;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	padding-top:3px;
+	border-top: 4px;
+	border-color:black;
+}
+.bottom a{
+	text-decoration:none;
+	color:#666;
+}
+.bottom a:hover{
+	text-decoration:underline;
+}
+.bottom a:active{
+	color:#609;
+	text-decoration:underline;
+}
+.bottom div{
+	display:inline;
+	padding-left:27px;
+}
+#bottomright{
+	position:relative;
+	right:-820px;
+}
+#bottomleft{
+	position:relative;
+	right:27px;
+}
